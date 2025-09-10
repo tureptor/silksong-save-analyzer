@@ -1,0 +1,91 @@
+/* Dark red background, light text */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #330000; /* dark red */
+	color: #eee;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+/* Limit content width */
+#results-container,
+h1,
+input {
+	max-width: 800px;
+	width: 100%;
+	margin: 1rem 0;
+}
+
+/* Heading */
+h1 {
+	color: #eee;
+}
+
+/* Heading */
+h2 {
+	color: #eee;
+}
+
+/* File input styling */
+input[type="file"] {
+	display: block;
+	margin: 1rem auto;
+	padding: 0.5rem;
+	background: #4d0000;
+	color: #eee;
+	border: 1px solid #660000;
+	border-radius: 4px;
+}
+
+/* Card style for results container */
+#results-container {
+	background: #4d0000;
+	padding: 1.5rem;
+	border-radius: 8px;
+	border: 1px solid #660000;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+/* Header styling */
+th {
+	background-color: #660000;
+	color: #eee;
+	font-weight: bold;
+	border: 1px solid #880000;
+	padding: 8px 12px;
+}
+
+/* Table cells */
+td {
+	border: 1px solid #880000;
+	padding: 8px 12px;
+}
+
+/* Alternating rows */
+tr:nth-child(even) {
+	background-color: #650000; /* slightly lighter dark red */
+}
+
+tr:nth-child(odd) {
+	background-color: #4d0000; /* match container background */
+}
+.spoiler {
+	background-color: black;
+	color: transparent;
+	user-select: none;
+}
+
+.spoiler:hover {
+	background-color: inherit;
+	color: inherit;
+}
