@@ -11,6 +11,10 @@ body {
 	text-align: center;
 }
 
+.file-path {
+	font-family: monospace;
+}
+
 /* Limit content width */
 #results-container,
 h1,
