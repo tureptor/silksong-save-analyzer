@@ -2,7 +2,6 @@ import { collectables, isItemUnlockedInPlayerSave } from "./dictionary.js";
 
 /**
  * Render the collectables tables
- * @param {string} containerId - id of the container div
  * @param {Object} playerSave - player save JSON
  */
 export function renderResults(playerSave) {
@@ -33,7 +32,7 @@ export function renderResults(playerSave) {
 
 			return `
       <div class="category">
-        <h3>${category.name} ${headingSuffix}</h2>
+        <h3>${category.name} ${headingSuffix}</h3>
         <p class="category-tooltip">${category.tooltip}</p>
         <table>
           <thead>
@@ -53,8 +52,8 @@ export function renderResults(playerSave) {
 				<td>${isItemUnlockedInPlayerSave(item.parsingInfo, playerSave) ? "✅" : "❌"}</td>
                 <td>${item.name}</td>
                 <td>${item.whichAct}</td>
-                <td ${item.prereqs.length > 0 ? "class='spoiler'" : ""}><span>${item.prereqs.join(", ")}</span></td>
-                <td class="spoiler"><span>${item.location}</span></td>
+                <td ${item.prereqs.length > 0 ? "class='spoiler'" : ""}>${item.prereqs.join(", ")}</td>
+                <td class="spoiler">${item.location}</td>
               </tr>
             `,
 							)
