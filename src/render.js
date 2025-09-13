@@ -10,19 +10,31 @@ export function renderResults(playerSave) {
 
 	// TODO - preprocess collectables to add on "isUnlocked" field instead of redundant usage of isItemUnlockedInPlayerSave
 
+	let totalCompletionPercentage = 0;
+
+	let headingSuffix = "";
+
 	container.innerHTML = collectables
 		.map((category) => {
 			// compute acquired items for this category
 			const acquiredItems = category.items.filter((item) =>
 				isItemUnlockedInPlayerSave(item.parsingInfo, playerSave),
 			);
+			if (category.necessity === "main") {
+				const catCompletionPercentage = category.formula(acquiredItems);
+				const maxCatCompletionPercentage = category.formula(category.items);
+				totalCompletionPercentage += catCompletionPercentage;
+				headingSuffix = `[${catCompletionPercentage}/${maxCatCompletionPercentage}%]`;
+			} else {
+				headingSuffix = `[${acquiredItems.length}/${category.items.length}]`;
+			}
 
 			// TODO - use category formula
 
 			return `
       <div class="category">
-        <h2 title="${category.tooltip}">${category.name}</h2>
-        <div class="category-total">Collected ${acquiredItems.length} / ${category.items.length}</div>
+        <h3>${category.name} ${headingSuffix}</h2>
+        <p class="category-tooltip">${category.tooltip}</p>
         <table>
           <thead>
             <tr>
@@ -53,4 +65,8 @@ export function renderResults(playerSave) {
     `;
 		})
 		.join("");
+	console.log(`Expected completion: ${totalCompletionPercentage}`);
+	console.log(
+		`Actual completion: ${playerSave.playerData.completionPercentage}`,
+	);
 }
