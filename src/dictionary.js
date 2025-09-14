@@ -148,7 +148,8 @@ export const collectables = [
 				name: "Mask Shard 1",
 				whichAct: 1,
 				prereqs: [],
-				location: "Purchased from bonebottom merchant",
+				location:
+					'Purchased from bonebottom merchant <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477840">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "PurchasedBonebottomHeartPiece",
@@ -159,7 +160,7 @@ export const collectables = [
 				whichAct: 1,
 				prereqs: ["Swift Step"],
 				location:
-					"Behind a breakable wall near the simple key slot (unverified)",
+					'Behind a breakable wall in the Wormways <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478091">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Crawl_02", "Heart Piece"],
@@ -169,7 +170,8 @@ export const collectables = [
 				name: "Mask Shard 3",
 				whichAct: 1,
 				prereqs: ["Drifter's cloak"],
-				location: "North-west of the Seamstress (unverified)",
+				location:
+					'Left of the seamstress <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477975">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Bone_East_20", "Heart Piece"],
@@ -178,9 +180,9 @@ export const collectables = [
 			{
 				name: "Mask Shard 4",
 				whichAct: 1,
-				prereqs: ["Drifter's cloak"],
+				prereqs: [],
 				location:
-					"Shellwood - at the end of a platforming challenge behind a breakable wall",
+					'At the end of a parkour section in Shellwood <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478177">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Shellwood_14", "Heart Piece"],
@@ -189,8 +191,9 @@ export const collectables = [
 			{
 				name: "Mask Shard 5",
 				whichAct: 1,
-				prereqs: ["Wall Cling"],
-				location: "Deep docks, very close to the Marrow entrance (unverified)",
+				prereqs: ["Cling Grip"],
+				location:
+					'Near the Deep Docks entrance in the Marrow <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477901">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Dock_08", "Heart Piece"],
@@ -201,7 +204,7 @@ export const collectables = [
 				whichAct: 1,
 				prereqs: ["Needolin"],
 				location:
-					"In a room behind a breakable wall on the east side of Weavenest Atla (unverified)",
+					'Behind a breakable wall in Weavenest Atla <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478233">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Weave_05b", "Heart Piece"],
@@ -212,7 +215,7 @@ export const collectables = [
 				whichAct: 1,
 				prereqs: [],
 				location:
-					"Reward for the Savage Beastfly quest obtainable in Bellhart (unverified)",
+					'Reward for the Savage Beastfly quest obtainable in Bellhart <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478800">(map link)</a>',
 				parsingInfo: {
 					type: "quest",
 					internalId: "Beastfly Hunt",
@@ -223,7 +226,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: [],
 				location:
-					"Leftmost part of Cogwork core behind an challenge room (unverified)",
+					'Left of the Cogwork Core <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478615">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Song_09", "Heart Piece"],
@@ -234,7 +237,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: [],
 				location:
-					"Whispering Vaults. At the top of a room. The movable box must be hit from beneath from another room behind a breakable ceiling (unverified)",
+					'Whispering Vaults <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478671">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Library_05", "Heart Piece"],
@@ -245,7 +248,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: ["Clawline"],
 				location:
-					"Bilewater. At the end of two long horizontal corridors (unverified)",
+					'At the end of some long corridors in Bilewater <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478849">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Shadow_13", "Heart Piece"],
@@ -256,7 +259,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: ["Clawline"],
 				location:
-					"At the top of Skull Cavern, which is in the southeast of Far Fields (unverified)",
+					'Within the Skull Cavern in the Far Fields <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478841">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Bone_East_LavaChallenge", "Heart Piece (1)"],
@@ -265,9 +268,9 @@ export const collectables = [
 			{
 				name: "Mask Shard 12",
 				whichAct: 2,
-				prereqs: ["Clawline"],
+				prereqs: [],
 				location:
-					"The Slab - at the end of a platforming challenge which is behind a lock which needs the Key of Apostate (unverified)",
+					'At the end of a parkour section in the Slab behind a lock which requires the Key of Apostate <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479001">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Slab_17", "Heart Piece"],
@@ -277,7 +280,8 @@ export const collectables = [
 				name: "Mask Shard 13",
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
-				location: "Left of the southwest bench in Mount Fay (unverified)",
+				location:
+					'Left of the toll bench in Mount Fay <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479038">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Peak_04c", "Heart Piece"],
@@ -287,7 +291,8 @@ export const collectables = [
 				name: "Mask Shard 14",
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
-				location: "East part of the Wisp Thicket (unverified)",
+				location:
+					'Right of the Wisp Thicket <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479151">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Wisp_07", "Heart Piece"],
@@ -296,9 +301,9 @@ export const collectables = [
 			{
 				name: "Mask Shard 15",
 				whichAct: 2,
-				prereqs: ["Faydown Cloak"],
+				prereqs: [],
 				location:
-					"Purchased from Jubilana after saving her as part of the The Lost Merchant quest (unverified)",
+					'Purchased from Jubilana <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478879">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "MerchantEnclaveShellFragment",
@@ -309,7 +314,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
 				location:
-					"Bottom-left of blasted steps near the world border. Requires you to reach a certain platform via a jump while dashing -> Clawline -> double jump. (unverified)",
+					'Left part of the Blasted Steps <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478498">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Coral_19b", "Heart Piece"],
@@ -319,7 +324,8 @@ export const collectables = [
 				name: "Mask Shard 17",
 				whichAct: 3,
 				prereqs: [],
-				location: "Reward for the Fastest in Pharloom quest (unverified)",
+				location:
+					'Reward for the Fastest in Pharloom quest <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479194">(map link)</a>',
 				parsingInfo: {
 					type: "quest",
 					internalId: "Sprintmaster Race",
@@ -329,7 +335,8 @@ export const collectables = [
 				name: "Mask Shard 18",
 				whichAct: 3,
 				prereqs: [],
-				location: "Reward for the Hidden Hunter quest (unverified)",
+				location:
+					'Reward for the Hidden Hunter quest <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479447">(map link)</a>',
 				parsingInfo: {
 					type: "quest",
 					internalId: "Ant Trapper",
@@ -339,7 +346,8 @@ export const collectables = [
 				name: "Mask Shard 19",
 				whichAct: 3,
 				prereqs: [],
-				location: "Reward for the Dark Hearts quest (unverified)",
+				location:
+					'Reward for the Dark Hearts quest <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479449">(map link)</a>',
 				parsingInfo: {
 					type: "quest",
 					internalId: "Destroy Thread Cores",
@@ -350,7 +358,7 @@ export const collectables = [
 				whichAct: 3,
 				prereqs: ["Silk Soar"],
 				location:
-					"Inside Brightvein, which is near the middle of Mount Fay and requires a super jump into a hidden ceiling passage. (unverified)",
+					'At the top of Brightvein in Mount Fay <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479460">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Peak_06", "Heart Piece"],
@@ -369,7 +377,8 @@ export const collectables = [
 				name: "Spool Fragment 1",
 				whichAct: 1,
 				prereqs: [],
-				location: "Above bonebottom settlement",
+				location:
+					'Above the Bonebottom settlement <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478080">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Bone_11b", "Silk Spool"],
@@ -379,21 +388,22 @@ export const collectables = [
 				name: "Spool Fragment 2",
 				whichAct: 1,
 				prereqs: [],
-				location: "Left part of Deep docks (unverified)",
+				location:
+					'At the end of a long room in the Deep Docks <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477926">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
-					internalId: ["Dock_03c", "Silk Spool"],
+					internalId: ["Bone_East_13", "Silk Spool"],
 				},
 			},
 			{
 				name: "Spool Fragment 3",
 				whichAct: 1,
-				prereqs: [],
+				prereqs: ["Cling Grip"],
 				location:
-					"Fleamaster reward - will always show as unobtained for now, while I figure out the save file flag.",
+					'In Greymoor, right and up of the Bell bench <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478263">(map link)</a>',
 				parsingInfo: {
-					type: "flag",
-					internalId: "fleaRewardPlaceholderTODO",
+					type: "sceneData",
+					internalId: ["Greymoor_02", "Silk Spool"],
 				},
 			},
 			{
@@ -401,48 +411,51 @@ export const collectables = [
 				whichAct: 1,
 				prereqs: ["Cling Grip"],
 				location:
-					"Greymoor - at the top of the room just right of the Bell bench (unverified)",
-				parsingInfo: {
-					type: "sceneData",
-					internalId: ["Greymoor_02", "Silk Spool"],
-				},
-			},
-			{
-				name: "Spool Fragment 5",
-				whichAct: 1,
-				prereqs: ["Cling Grip"],
-				location:
-					"Middle-left of the Slab. In one of the outdoor rooms which have the cold effect from Mount Fay (unverified)",
+					'In the Slab, top of a frosty section to the left <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478475">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Peak_01", "Silk Spool"],
 				},
 			},
 			{
-				name: "Spool Fragment 6",
+				name: "Spool Fragment 5",
 				whichAct: 1,
-				prereqs: ["Cling Grip"],
-				location: "Weavenest Atla (unverified)",
+				prereqs: ["Needolin"],
+				location:
+					'Behind a breakable wall in Weavenest Atla <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478230">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Weave_11", "Silk Spool"],
 				},
 			},
 			{
-				name: "Spool Fragment 7",
+				name: "Spool Fragment 6",
 				whichAct: 1,
 				prereqs: ["Needolin"],
-				location: "Purchased from Bellhart merchant (unverified)",
+				location:
+					'Purchased from Frey after completing the mission "My Missing Courier" <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478347">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "PurchasedBelltownSpoolSegment",
 				},
 			},
 			{
+				name: "Spool Fragment 7",
+				whichAct: 2,
+				prereqs: [],
+				location:
+					'Fleamaster reward - will always match the obtained status of Spool Fragment 18 (potentially generating a false positive) while I figure out the save file flag <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478820">(map link)</a>',
+				parsingInfo: {
+					type: "flag",
+					internalId: "MerchantEnclaveSpoolPiece",
+				},
+			},
+			{
 				name: "Spool Fragment 8",
 				whichAct: 2,
 				prereqs: [],
-				location: "Bottom-right of Cogwork Core (unverified)",
+				location:
+					'Bottom-right of the Cogwork Core <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478618">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Cog_07", "Silk Spool"],
@@ -453,7 +466,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: [],
 				location:
-					"Maybe the one near east Underworks, accessible via a lift after Trobbio (unverified)",
+					'Right of the Underworks <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478704">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Library_11b", "Silk Spool"],
@@ -463,7 +476,8 @@ export const collectables = [
 				name: "Spool Fragment 10",
 				whichAct: 2,
 				prereqs: [],
-				location: "Top of the Grand Gate room (unverified)",
+				location:
+					'Top of the Grand Gate room <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478586">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Song_19_entrance", "Silk Spool"],
@@ -474,7 +488,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: [],
 				location:
-					"Underworks - Behind a challenge room nearby the Ventrica station (unverified)",
+					'Behind a Arena battle in the Underworks <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478931">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Under_10", "Silk Spool"],
@@ -484,7 +498,8 @@ export const collectables = [
 				name: "Spool Fragment 12",
 				whichAct: 2,
 				prereqs: [],
-				location: "Whiteward - bottom of lift shaft (unverified)",
+				location:
+					'Bottom of the elevator shaft in Whiteward. Requires lift to be called up first. <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479317">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Ward_01", "Silk Spool"],
@@ -494,7 +509,8 @@ export const collectables = [
 				name: "Spool Fragment 13",
 				whichAct: 2,
 				prereqs: [],
-				location: "Balm for The Wounded quest reward (unverified)",
+				location:
+					'Balm for The Wounded quest reward <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479180">(map link)</a>',
 				parsingInfo: {
 					type: "quest",
 					internalId: "Save Sherma",
@@ -503,30 +519,31 @@ export const collectables = [
 			{
 				name: "Spool Fragment 14",
 				whichAct: 2,
-				prereqs: ["Clawline"],
-				location: "Top of the high halls (unverified)",
+				prereqs: [],
+				location:
+					'Bottom-right of the Deep Docks <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478825">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
-					internalId: ["Hang_03_top", "Silk Spool"],
+					internalId: ["Dock_03c", "Silk Spool"],
 				},
 			},
-
 			{
 				name: "Spool Fragment 15",
 				whichAct: 2,
 				prereqs: ["Clawline"],
 				location:
-					"Far east of Deep docks, near the lower Far fields entrance (unverified)",
+					'Top of the High Halls <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478909">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
-					internalId: ["Bone_East_13", "Silk Spool"],
+					internalId: ["Hang_03_top", "Silk Spool"],
 				},
 			},
 			{
 				name: "Spool Fragment 16",
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
-				location: "Left of Memorium (unverified)",
+				location:
+					'Left part of the Memorium <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479117">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Arborium_09", "Silk Spool"],
@@ -536,7 +553,8 @@ export const collectables = [
 				name: "Spool Fragment 17",
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
-				location: "Purchased from Grindle in Blasted Steps (unverified)",
+				location:
+					'Purchased from Grindle in Blasted Steps <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478527">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "purchasedGrindleSpoolPiece",
@@ -547,7 +565,7 @@ export const collectables = [
 				whichAct: 2,
 				prereqs: ["Faydown Cloak"],
 				location:
-					"Purchased from Jubilana after saving her as part of the The Lost Merchant quest (unverified)",
+					'Purchased from Jubilana after saving her as part of the The Lost Merchant quest <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479249">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "MerchantEnclaveSpoolPiece",
@@ -562,45 +580,51 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Silk Spear",
-				whichAct: 0,
+				name: "Silkspear",
+				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477871">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Silk Spear" },
 			},
 			{
-				name: "Thread Sphere",
-				whichAct: 0,
+				name: "Thread Storm",
+				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478061">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Thread Sphere" },
 			},
 			{
-				name: "Parry",
-				whichAct: 0,
+				name: "Cross Stitch",
+				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478371">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Parry" },
 			},
 			{
-				name: "Silk Bomb",
-				whichAct: 0,
+				name: "Rune Rage",
+				whichAct: 2,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479025">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Silk Bomb" },
 			},
 			{
-				name: "Silk Charge",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				name: "Sharpdart",
+				whichAct: 2,
+				prereqs: ["Clawline"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479079">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Silk Charge" },
 			},
 			{
-				name: "Silk Boss Needle",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				name: "Pale Nails",
+				whichAct: 3,
+				prereqs: ["Silk Soar"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479606">(map link)</a>',
 				parsingInfo: { type: "tool", internalId: "Silk Boss Needle" },
 			},
 		],
@@ -613,7 +637,7 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Bone Necklace",
+				name: "Shard Pendant",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -628,11 +652,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Mosscreep Tool 1",
+				name: "Druid's Eye(s)",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "Mosscreep Tool 1" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["Mosscreep Tool 1", "Mosscreep Tool 2"],
+				},
 			},
 			{
 				name: "Straight Pin",
@@ -642,14 +669,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Straight Pin" },
 			},
 			{
-				name: "Bell Bind",
+				name: "Warding Bell",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Bell Bind" },
 			},
 			{
-				name: "Tri Pin",
+				name: "Threefold Pin",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -657,28 +684,31 @@ export const collectables = [
 			},
 
 			{
-				name: "Harpoon",
+				name: "Longpin",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Harpoon" },
 			},
 			{
-				name: "Dead Mans Purse",
+				name: "Dead Bug's Purse / Shell Satchel",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "Dead Mans Purse" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["Dead Mans Purse", "Shell Satchel"],
+				},
 			},
 			{
-				name: "Rosary Magnet",
+				name: "Magnetite Brooch",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Rosary Magnet" },
 			},
 			{
-				name: "Lava Charm",
+				name: "Magma Bell",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -692,14 +722,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Flea Brew" },
 			},
 			{
-				name: "Barbed Wire",
+				name: "Barbed Bracelet",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Barbed Wire" },
 			},
 			{
-				name: "Tack",
+				name: "Tacks",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -720,21 +750,21 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "White Ring" },
 			},
 			{
-				name: "Flintstone",
+				name: "Flintslate",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Flintstone" },
 			},
 			{
-				name: "Sprintmaster",
+				name: "Silkspeed Anklets",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Sprintmaster" },
 			},
 			{
-				name: "Screw Attack",
+				name: "Delver's Drill",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -762,7 +792,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Lifeblood Syringe" },
 			},
 			{
-				name: "Wallcling",
+				name: "Ascendant's Grip",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -777,14 +807,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Thief Charm",
+				name: "Thief's Mark",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Thief Charm" },
 			},
 			{
-				name: "Conch Drill",
+				name: "Conchcutter",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -798,14 +828,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Quick Sling" },
 			},
 			{
-				name: "Wisp Lantern",
+				name: "Wispfire Lantern",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Wisp Lantern" },
 			},
 			{
-				name: "Cogwork Flier",
+				name: "Cogfly",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -819,7 +849,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Rosary Cannon" },
 			},
 			{
-				name: "Maggot Charm",
+				name: "Wreath of Purity",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -833,7 +863,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Reserve Bind" },
 			},
 			{
-				name: "Weighted Anklet",
+				name: "Weighted Belt",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -841,14 +871,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Longneedle",
+				name: "Longclaw",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Longneedle" },
 			},
 			{
-				name: "Shakra Ring",
+				name: "Throwing Ring",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -869,18 +899,21 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Fractured Mask" },
 			},
 			{
-				name: "Zap Imbuement",
+				name: "Volt Filament",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Zap Imbuement" },
 			},
 			{
-				name: "WebShot Forge",
+				name: "Silkshot",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "WebShot Forge" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["WebShot Forge", "WebShot Architect", "WebShot Weaver"],
+				},
 			},
 			{
 				name: "Sting Shard",
@@ -900,7 +933,7 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Musician Charm",
+				name: "Spider Strings",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -914,28 +947,28 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Spool Extender" },
 			},
 			{
-				name: "Multibind",
+				name: "Multibinder",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Multibind" },
 			},
 			{
-				name: "Pinstress Tool",
+				name: "Pin Badge",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Pinstress Tool" },
 			},
 			{
-				name: "Cogwork Saw",
+				name: "Cogwork Wheel",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Cogwork Saw" },
 			},
 			{
-				name: "Thief Claw",
+				name: "Snitch Pick",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -949,7 +982,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Magnetite Dice" },
 			},
 			{
-				name: "Brolly Spike",
+				name: "Sawtooth Circlet",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -966,14 +999,14 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Lightning Rod",
+				name: "Voltvessels",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Lightning Rod" },
 			},
 			{
-				name: "Flea Charm",
+				name: "Egg of Flealia",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -989,28 +1022,28 @@ export const collectables = [
 		items: [
 			{
 				name: "upgrade 1",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tempintflag", internalId: ["nailUpgrades", 1] },
 			},
 			{
 				name: "upgrade 2",
-				whichAct: 0,
+				whichAct: 2,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tempintflag", internalId: ["nailUpgrades", 2] },
 			},
 			{
 				name: "upgrade 3",
-				whichAct: 0,
+				whichAct: 2,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tempintflag", internalId: ["nailUpgrades", 3] },
 			},
 			{
 				name: "upgrade 4",
-				whichAct: 0,
+				whichAct: 3,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tempintflag", internalId: ["nailUpgrades", 4] },
@@ -1025,7 +1058,7 @@ export const collectables = [
 		items: [
 			{
 				name: "upgrade 1",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1035,7 +1068,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 2",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1045,7 +1078,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 3",
-				whichAct: 0,
+				whichAct: 2,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1055,7 +1088,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 4",
-				whichAct: 0,
+				whichAct: 2,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1073,7 +1106,7 @@ export const collectables = [
 		items: [
 			{
 				name: "upgrade 1",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1083,7 +1116,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 2",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1093,7 +1126,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 3",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1103,7 +1136,7 @@ export const collectables = [
 			},
 			{
 				name: "upgrade 4",
-				whichAct: 0,
+				whichAct: 2,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: {
@@ -1121,9 +1154,9 @@ export const collectables = [
 		items: [
 			{
 				name: "Hunter",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location: "N/A",
 				parsingInfo: {
 					type: "crest",
 					internalId: "Hunter",
@@ -1131,9 +1164,10 @@ export const collectables = [
 			},
 			{
 				name: "Wanderer",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				whichAct: 1,
+				prereqs: ["Cling Grip"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478240">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Wanderer",
@@ -1141,9 +1175,10 @@ export const collectables = [
 			},
 			{
 				name: "Reaper",
-				whichAct: 0,
+				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478156">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Reaper",
@@ -1151,9 +1186,10 @@ export const collectables = [
 			},
 			{
 				name: "Beast",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				whichAct: 1,
+				prereqs: ["Swift Step", "Drifter's Cloak"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478020">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Warrior",
@@ -1161,9 +1197,10 @@ export const collectables = [
 			},
 			{
 				name: "Architect",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				whichAct: 2,
+				prereqs: ["Clawline"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478745">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Toolmaster",
@@ -1171,9 +1208,10 @@ export const collectables = [
 			},
 			{
 				name: "Witch",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				whichAct: 2,
+				prereqs: ["Clawline"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478815">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Witch",
@@ -1181,9 +1219,10 @@ export const collectables = [
 			},
 			{
 				name: "Shaman",
-				whichAct: 0,
-				prereqs: [],
-				location: "TODO",
+				whichAct: 3,
+				prereqs: ["Silk Soar"],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479384">(map link)</a>',
 				parsingInfo: {
 					type: "crest",
 					internalId: "Spell",
@@ -1201,7 +1240,8 @@ export const collectables = [
 				name: "Silk heart 1",
 				whichAct: 1,
 				prereqs: [],
-				location: "After Bell Beast boss fight",
+				location:
+					'After Bell Beast bossfight <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477881">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Memory_Silk_Heart_BellBeast", "glow_rim_Remasker"],
@@ -1211,7 +1251,8 @@ export const collectables = [
 				name: "Silk heart 2",
 				whichAct: 2,
 				prereqs: [],
-				location: "Whiteward - the Unravelled boss fight",
+				location:
+					'After The Unravelled bossfight in Whiteward <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479082">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Memory_Silk_Heart_WardBoss", "glow_rim_Remasker"],
@@ -1221,7 +1262,8 @@ export const collectables = [
 				name: "Silk heart 3",
 				whichAct: 2,
 				prereqs: [],
-				location: "After Lace (cradle) bossfight",
+				location:
+					'After Lace bossfight in The Cradle <a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479089">(map link)</a>',
 				parsingInfo: {
 					type: "sceneData",
 					internalId: ["Memory_Silk_Heart_LaceTower", "glow_rim_Remasker"],
@@ -1236,20 +1278,22 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Swift step",
+				name: "Swift Step",
 				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477915">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasDash",
 				},
 			},
 			{
-				name: "Wall Cling",
+				name: "Cling Grip",
 				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478189">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasWalljump",
@@ -1259,7 +1303,8 @@ export const collectables = [
 				name: "Needolin",
 				whichAct: 1,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478199">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasNeedolin",
@@ -1269,7 +1314,8 @@ export const collectables = [
 				name: "Clawline",
 				whichAct: 2,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478714">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasHarpoonDash",
@@ -1279,17 +1325,19 @@ export const collectables = [
 				name: "Needle Strike",
 				whichAct: 2,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478510">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasChargeSlash",
 				},
 			},
 			{
-				name: "Silksoar",
+				name: "Silk Soar",
 				whichAct: 3,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479288">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasSuperJump",
@@ -1299,7 +1347,8 @@ export const collectables = [
 				name: "Sylphsong",
 				whichAct: 3,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479654">(map link)</a>',
 				parsingInfo: {
 					type: "flag",
 					internalId: "HasBoundCrestUpgrader",
@@ -1317,7 +1366,8 @@ export const collectables = [
 				name: "Everbloom",
 				whichAct: 3,
 				prereqs: [],
-				location: "TODO",
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479387">(map link)</a>',
 				parsingInfo: {
 					type: "collectable",
 					internalId: "White Flower",

@@ -22,57 +22,56 @@ export function renderResults(playerSave) {
 			if (category.necessity === "main") {
 				const catCompletionPercentage = category.formula(acquiredItems);
 				const maxCatCompletionPercentage = category.formula(category.items);
+				const categoryCompleted =
+					catCompletionPercentage === maxCatCompletionPercentage;
 				totalCompletionPercentage += catCompletionPercentage;
-				headingSuffix = `[${catCompletionPercentage}/${maxCatCompletionPercentage}%]`;
+				headingSuffix = `<span class=${categoryCompleted ? "completedCategory" : "partialCategory"}>[${catCompletionPercentage}/${maxCatCompletionPercentage}%]</span>`;
 			} else {
-				headingSuffix = `[${acquiredItems.length}/${category.items.length}]`;
+				headingSuffix = `<span class=${categoryCompleted ? "completedCategory" : "partialCategory"}>[${acquiredItems.length}/${category.items.length}]</span>`;
 			}
 
 			// TODO - use category formula
 
 			return `
-      <div class="category">
+    <div class="category">
         <h3>${category.name} ${headingSuffix}</h3>
         <p class="category-tooltip">${category.tooltip}</p>
-        <table>
-          <thead>
-            <tr>
-			  <th>Acquired</th>
-              <th>Name</th>
-              <th>Act</th>
-              <th>Prerequisites</th>
-              <th>Location</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${category.items
-							.map(
-								(item) => `
-              <tr>
-				<td>${isItemUnlockedInPlayerSave(item.parsingInfo, playerSave) ? "✅" : "❌"}</td>
-                <td>${item.name}</td>
-                <td>${item.whichAct}</td>
-                <td ${item.prereqs.length > 0 ? "class='spoiler'" : ""}>${item.prereqs.join(", ")}</td>
-                <td class="spoiler">${item.location}</td>
-              </tr>
-            `,
-							)
-							.join("")}
-          </tbody>
-        </table>
-      </div>
+		<details>
+        	<summary>Show table</summary>
+			<table>
+			<thead>
+				<tr>
+				<th>Acquired</th>
+				<th>Name</th>
+				<th>Act</th>
+				<th>Prerequisites</th>
+				<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				${category.items
+					.map(
+						(item) => `
+				<tr>
+					<td>${isItemUnlockedInPlayerSave(item.parsingInfo, playerSave) ? "✅" : "❌"}</td>
+					<td>${item.name}</td>
+					<td>${item.whichAct}</td>
+					<td ${item.prereqs.length > 0 ? "class='spoiler'" : ""}>${item.prereqs.join(", ")}</td>
+					<td class="spoiler">${item.location}</td>
+				</tr>
+				`,
+					)
+					.join("")}
+			</tbody>
+			</table>
+		</details>
+    </div>
+	<br\>
     `;
 		})
 		.join("");
 
-		// To help users keep track of total completion
-		container.insertAdjacentHTML("afterbegin", `
-			<div class="category">
-				<h3>Total Completion: ${ totalCompletionPercentage === playerSave.playerData.completionPercentage ? totalCompletionPercentage : ""}/100%</h3>
-			</div>
-		`);
-	console.log(`Expected completion: ${totalCompletionPercentage}`);
-	console.log(
-		`Actual completion: ${playerSave.playerData.completionPercentage}`,
-	);
+	const completionPercentageHeader = document.createElement("h2");
+	completionPercentageHeader.innerHTML = `Overall completion: ${totalCompletionPercentage}%`;
+	container.prepend(completionPercentageHeader);
 }

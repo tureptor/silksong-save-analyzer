@@ -83,13 +83,24 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
 	background-color: #4d0000; /* match container background */
 }
-.spoiler {
+
+.spoiler,
+.spoiler * {
 	background-color: black;
 	color: transparent;
 	user-select: none;
 }
 
-.spoiler:hover {
+.spoiler:hover,
+.spoiler:hover * {
 	background-color: inherit;
 	color: inherit;
+}
+
+.completedCategory {
+	color: green;
+}
+
+.partialCategory {
+	color: red;
 }
