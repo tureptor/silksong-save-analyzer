@@ -562,42 +562,42 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Silk Spear",
+				name: "Silkspear",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Silk Spear" },
 			},
 			{
-				name: "Thread Sphere",
+				name: "Thread Storm",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Thread Sphere" },
 			},
 			{
-				name: "Parry",
+				name: "Cross Stitch",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Parry" },
 			},
 			{
-				name: "Silk Bomb",
+				name: "Rune Rage",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Silk Bomb" },
 			},
 			{
-				name: "Silk Charge",
+				name: "Sharpdart",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Silk Charge" },
 			},
 			{
-				name: "Silk Boss Needle",
+				name: "Pale Nails",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -613,7 +613,7 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Bone Necklace",
+				name: "Shard Pendant",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -628,11 +628,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Mosscreep Tool 1",
+				name: "Druid's Eye(s)",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "Mosscreep Tool 1" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["Mosscreep Tool 1", "Mosscreep Tool 2"],
+				},
 			},
 			{
 				name: "Straight Pin",
@@ -642,14 +645,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Straight Pin" },
 			},
 			{
-				name: "Bell Bind",
+				name: "Warding Bell",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Bell Bind" },
 			},
 			{
-				name: "Tri Pin",
+				name: "Threefold Pin",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -657,28 +660,31 @@ export const collectables = [
 			},
 
 			{
-				name: "Harpoon",
+				name: "Longpin",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Harpoon" },
 			},
 			{
-				name: "Dead Mans Purse",
+				name: "Dead Bug's Purse / Shell Satchel",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "Dead Mans Purse" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["Dead Mans Purse", "Shell Satchel"],
+				},
 			},
 			{
-				name: "Rosary Magnet",
+				name: "Magnetite Brooch",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Rosary Magnet" },
 			},
 			{
-				name: "Lava Charm",
+				name: "Magma Bell",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -692,14 +698,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Flea Brew" },
 			},
 			{
-				name: "Barbed Wire",
+				name: "Barbed Bracelet",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Barbed Wire" },
 			},
 			{
-				name: "Tack",
+				name: "Tacks",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -720,21 +726,21 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "White Ring" },
 			},
 			{
-				name: "Flintstone",
+				name: "Flintslate",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Flintstone" },
 			},
 			{
-				name: "Sprintmaster",
+				name: "Silkspeed Anklets",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Sprintmaster" },
 			},
 			{
-				name: "Screw Attack",
+				name: "Delver's Drill",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -762,7 +768,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Lifeblood Syringe" },
 			},
 			{
-				name: "Wallcling",
+				name: "Ascendant's Grip",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -777,14 +783,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Thief Charm",
+				name: "Thief's Mark",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Thief Charm" },
 			},
 			{
-				name: "Conch Drill",
+				name: "Conchcutter",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -798,14 +804,14 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Quick Sling" },
 			},
 			{
-				name: "Wisp Lantern",
+				name: "Wispfire Lantern",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Wisp Lantern" },
 			},
 			{
-				name: "Cogwork Flier",
+				name: "Cogfly",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -819,7 +825,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Rosary Cannon" },
 			},
 			{
-				name: "Maggot Charm",
+				name: "Wreath of Purity",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -833,7 +839,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Reserve Bind" },
 			},
 			{
-				name: "Weighted Anklet",
+				name: "Weighted Belt",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -841,14 +847,14 @@ export const collectables = [
 			},
 
 			{
-				name: "Longneedle",
+				name: "Longclaw",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Longneedle" },
 			},
 			{
-				name: "Shakra Ring",
+				name: "Throwing Ring",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -869,18 +875,21 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Fractured Mask" },
 			},
 			{
-				name: "Zap Imbuement",
+				name: "Volt Filament",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Zap Imbuement" },
 			},
 			{
-				name: "WebShot Forge",
+				name: "Silkshot",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
-				parsingInfo: { type: "tool", internalId: "WebShot Forge" },
+				parsingInfo: {
+					type: "upgradabletool",
+					internalId: ["WebShot Forge", "WebShot Architect", "WebShot Weaver"],
+				},
 			},
 			{
 				name: "Sting Shard",
@@ -900,7 +909,7 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Musician Charm",
+				name: "Spider Strings",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -914,28 +923,28 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Spool Extender" },
 			},
 			{
-				name: "Multibind",
+				name: "Multibinder",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Multibind" },
 			},
 			{
-				name: "Pinstress Tool",
+				name: "Pin Badge",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Pinstress Tool" },
 			},
 			{
-				name: "Cogwork Saw",
+				name: "Cogwork Wheel",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Cogwork Saw" },
 			},
 			{
-				name: "Thief Claw",
+				name: "Snitch Pick",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -949,7 +958,7 @@ export const collectables = [
 				parsingInfo: { type: "tool", internalId: "Magnetite Dice" },
 			},
 			{
-				name: "Brolly Spike",
+				name: "Sawtooth Circlet",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -966,14 +975,14 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Lightning Rod",
+				name: "Voltvessels",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
 				parsingInfo: { type: "tool", internalId: "Lightning Rod" },
 			},
 			{
-				name: "Flea Charm",
+				name: "Egg of Flealia",
 				whichAct: 0,
 				prereqs: [],
 				location: "TODO",
@@ -1236,7 +1245,7 @@ export const collectables = [
 		formula: (acquiredItems) => acquiredItems.length,
 		items: [
 			{
-				name: "Swift step",
+				name: "Swift Step",
 				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
@@ -1246,7 +1255,7 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Wall Cling",
+				name: "Cling Grip",
 				whichAct: 1,
 				prereqs: [],
 				location: "TODO",
@@ -1286,7 +1295,7 @@ export const collectables = [
 				},
 			},
 			{
-				name: "Silksoar",
+				name: "Silk Soar",
 				whichAct: 3,
 				prereqs: [],
 				location: "TODO",
