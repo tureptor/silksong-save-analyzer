@@ -64,6 +64,13 @@ export function renderResults(playerSave) {
     `;
 		})
 		.join("");
+
+		// To help users keep track of total completion
+		container.insertAdjacentHTML("afterbegin", `
+			<div class="category">
+				<h3>Total Completion: ${ totalCompletionPercentage === playerSave.playerData.completionPercentage ? totalCompletionPercentage : ""}/100%</h3>
+			</div>
+		`);
 	console.log(`Expected completion: ${totalCompletionPercentage}`);
 	console.log(
 		`Actual completion: ${playerSave.playerData.completionPercentage}`,
