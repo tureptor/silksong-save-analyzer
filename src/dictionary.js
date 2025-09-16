@@ -1311,6 +1311,17 @@ export const collectables = [
 				},
 			},
 			{
+				name: "Needle Strike",
+				whichAct: 1,
+				prereqs: [],
+				location:
+					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478510">(map link)</a>',
+				parsingInfo: {
+					type: "flag",
+					internalId: "hasChargeSlash",
+				},
+			},
+			{
 				name: "Clawline",
 				whichAct: 2,
 				prereqs: [],
@@ -1319,17 +1330,6 @@ export const collectables = [
 				parsingInfo: {
 					type: "flag",
 					internalId: "hasHarpoonDash",
-				},
-			},
-			{
-				name: "Needle Strike",
-				whichAct: 2,
-				prereqs: [],
-				location:
-					'<a href="https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478510">(map link)</a>',
-				parsingInfo: {
-					type: "flag",
-					internalId: "hasChargeSlash",
 				},
 			},
 			{
