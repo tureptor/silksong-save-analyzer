@@ -4,7 +4,7 @@ import { collectables, isItemUnlockedInPlayerSave } from "./dictionary.js";
  * Render the collectables tables
  * @param {Object} playerSave - player save JSON
  */
-export function renderResults(playerSave) {
+export function renderResults(playerSave, selectedAct) {
 	const container = document.getElementById("results-container"); // defined in index.html
 
 	// TODO - preprocess collectables to add on "isUnlocked" field instead of redundant usage of isItemUnlockedInPlayerSave
@@ -15,8 +15,12 @@ export function renderResults(playerSave) {
 
 	container.innerHTML = collectables
 		.map((category) => {
+			// TODO -> have live switching of act categories after the file is uploaded
+			const availableItems = category.items.filter(
+				(item) => selectedAct >= item.whichAct,
+			);
 			// compute acquired items for this category
-			const acquiredItems = category.items.filter((item) =>
+			const acquiredItems = availableItems.filter((item) =>
 				isItemUnlockedInPlayerSave(item.parsingInfo, playerSave),
 			);
 			if (category.necessity === "main") {
@@ -29,8 +33,6 @@ export function renderResults(playerSave) {
 			} else {
 				headingSuffix = `<span class=${categoryCompleted ? "completedCategory" : "partialCategory"}>[${acquiredItems.length}/${category.items.length}]</span>`;
 			}
-
-			// TODO - use category formula
 
 			return `
     <div class="category">
@@ -49,7 +51,7 @@ export function renderResults(playerSave) {
 				</tr>
 			</thead>
 			<tbody>
-				${category.items
+				${availableItems
 					.map(
 						(item) => `
 				<tr>
@@ -66,7 +68,7 @@ export function renderResults(playerSave) {
 			</table>
 		</details>
     </div>
-	<br\>
+	<br>
     `;
 		})
 		.join("");

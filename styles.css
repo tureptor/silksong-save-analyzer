@@ -104,3 +104,17 @@ tr:nth-child(odd) {
 .partialCategory {
 	color: red;
 }
+
+/* The buttons for the respective acts */
+.button-style {
+	padding: 0.5rem 1rem;
+	background-color: #550000;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin: 0.25rem;
+}
+.button-style:hover {
+	background-color: #990000;
+}
