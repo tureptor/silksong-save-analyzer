@@ -15,7 +15,9 @@ input.type = "file";
 div.appendChild(input);
 input.addEventListener("change", handleFileUpload);
 
-let selectedAct;
+let selectedAct = 3;
+let saveJson;
+
 const buttonContainer = document.getElementById("button-container");
 for (let i = 1; i <= 3; i++) {
 	const button = document.createElement("button");
@@ -24,6 +26,9 @@ for (let i = 1; i <= 3; i++) {
 	buttonContainer.appendChild(button);
 	button.addEventListener("click", () => {
 		selectedAct = i;
+		if (saveJson) {
+			renderResults(saveJson, selectedAct);
+		}
 	});
 }
 
@@ -32,6 +37,6 @@ async function handleFileUpload(event) {
 	if (!file) return;
 
 	const rawSave = await file.arrayBuffer();
-	const saveJson = await decryptSaveFile(rawSave);
+	saveJson = await decryptSaveFile(rawSave);
 	renderResults(saveJson, selectedAct);
 }
