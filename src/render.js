@@ -73,6 +73,28 @@ export function renderResults(playerSave, selectedAct) {
 		})
 		.join("");
 
+	function collapseAll() {
+		let collapsibles = document.getElementsByClassName("collapsible");
+		Array.from(collapsibles).forEach((e) => {
+		e.removeAttribute("open");
+		});
+	}
+	const buttonCollapse = document.createElement("button");
+	buttonCollapse.textContent = "Collapse All";
+	buttonCollapse.onclick = collapseAll;
+	container.prepend(buttonCollapse);
+
+	function expandAll() {
+		let collapsibles = document.getElementsByClassName("collapsible");
+		Array.from(collapsibles).forEach((e) => {
+		e.setAttribute("open", "");
+		});
+	}
+	const buttonExpand = document.createElement("button");
+	buttonExpand.textContent = "Expand All";
+	buttonExpand.onclick = expandAll;
+	container.prepend(buttonExpand);
+
 	const completionPercentageHeader = document.createElement("h2");
 	completionPercentageHeader.innerHTML = `Overall completion: ${totalCompletionPercentage}%`;
 	container.prepend(completionPercentageHeader);
